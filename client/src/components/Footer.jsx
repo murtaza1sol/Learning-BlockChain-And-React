@@ -9,10 +9,10 @@ const Footer = () => {
             <img src={logo} alt="logo"className='w-32'/>
         </div>
         <div className='flex flex-1 justify-evenly items-center flex-wrap sm:mt-0 mt-5 w-full'>
-            <p className='text-white text-base text-center cursor-pointer'>Market</p>
-            <p className='text-white text-base text-center cursor-pointer'>Changes</p>
-            <p className='text-white text-base text-center cursor-pointer'>Tutorials</p>
-            <p className='text-white text-base text-center cursor-pointer'>Wallet</p>
+            <p className='text-white text-base text-center cursor-pointer'>Education</p>
+            <p className='text-white text-base text-center cursor-pointer'>Skills</p>
+            <p className='text-white text-base text-center cursor-pointer'>Projects</p>
+            
         </div>
     </div>
     <div className='flex justify-center items-center flex-col mt-5'>
@@ -20,11 +20,12 @@ const Footer = () => {
         <p className='text-white text-sm text-center '>Contact me</p>
         <p className='text-white text-sm text-center '>murtazaaziznitsri@gmail.com</p>
     </div>
-    <div className='sm:w-[90%] w-full h-[0.2525px] bg-blue-300 mt-5'/>
+    <div className='sm:w-[90%] w-full h-[0.25px] bg-blue-300 mt-5'/>
     
     <div className='sm:w-[90%] w-full flex justify-between items-center mt-3'>
-    <p className='text-white text-sm text-center '>
-        Follow me on twitter
+    <p className='text-white text-xl text-center '>
+    <a href="https://twitter.com/__murtaza__q" class="fa fa-twitter"></a>
+    <a href="https://github.com/murtaza1sol" class="fa fa-github"></a>
         </p>
     <p className='text-white text-sm text-center '>All rights reserved</p>
     </div>
